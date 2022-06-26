@@ -328,8 +328,11 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 /* work */
+
+
 .work-conteiner{
 display: flex;
+padding-bottom: 94px;
 }
 
 .list-work{
