@@ -55,7 +55,7 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-/* outline: 1px solid black; */
+outline: 1px solid black;
 }
 
 /* page-header */
@@ -91,13 +91,14 @@ color:var(--accent-color);
 .footer-cont{
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .footer{
-max-width: 1600px;
-margin-left: auto;
-margin-right: auto;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+
 }
 
 .footer .web-footer {
@@ -216,32 +217,29 @@ color: var(--button-color);
 
 /* hero */
 .conteiner-fon{
- 
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
- 
-  
-/* 
-  background-image: linear-gradient(
+  outline: 1px solid black;
+
+background-image: linear-gradient(
   to right,
-  #f44336 15%,
-  #09792b 40%,
-  #00b9ff 10%,
-  #ffb800 
-); */
-
- background-image:url(../img/Fon.jpg);
- background-size: cover;
-
+  rgba(255, 0, 0, 0.5),
+  rgba(0, 0, 255, 0.5),
+  rgba(0, 255, 0, 0.5)
+),
+  url(../img/Fon.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero{
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 200px;
-  }
+  padding-bottom: 200px; 
+}
 
 .hero .hero-caption{
 width: 696px;
