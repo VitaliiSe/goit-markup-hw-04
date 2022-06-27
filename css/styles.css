@@ -328,17 +328,24 @@ color: var(--secondary-text-color);
 .list-post::before{
   display:block;
   content: "";
+  width: 270px;
   height: 120px;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
+  background-size: 70px 70px;
+  background-color: var(--button-color);
   margin-bottom: 30px;
-  padding: 25px 100px;
-  /* outline: 1px solid red; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+  /* outline: 1px solid black; */
 }
+
 .icon-antenna::before{
   background-image: url(../img/SVG/antenna-1.svg);
+  
+
+  
 }
 .icon-clock::before{
   background-image: url(../img/SVG/clock-1.svg);
@@ -411,7 +418,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .team .team-title{
-padding-bottom: 10px;
+margin-bottom: 10px;
 
 font-style: normal;
 font-weight: 500;
@@ -422,7 +429,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .team .team-text{
-padding-bottom: 30px;
+margin-bottom: 30px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -434,6 +441,17 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 
+.box-icon{
+  display: flex;
+  width: 206px;
+  height: 44px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 12px;
+  outline: 1px solid tomato;
+}
 /*----------- Портфолио-----------  */
 
 /* bar */
