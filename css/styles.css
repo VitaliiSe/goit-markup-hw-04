@@ -164,12 +164,13 @@ color: var(--accent-color);
 }
 /* list-contacts */
 .list-contacts{
-display: flex;
+display:inline-flex;
+align-items: center;
 margin-left: auto;
 }
 
 .list-contacts .contact{
-display: block;
+display:flex;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -177,6 +178,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 text-decoration: none;
+align-items: center;
+
 }
 .list-contacts .contact:hover,
 .list-contacts .contact:focus{
@@ -185,6 +188,31 @@ color: var(--accent-color);
 
 .list-contacts .item + .item{
   margin-left: 50px;
+}
+
+.mail::before{
+  display:block;
+  align-items:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/SVG/envelope.svg);
+  content:'';
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.tell::before{
+  display:block;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/SVG/smartphone.svg);
+  content:'';
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /* items-contacts */
@@ -235,7 +263,6 @@ background-image: linear-gradient(
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .hero{
   text-align: center;
   padding-top: 200px;
@@ -342,20 +369,20 @@ color: var(--secondary-text-color);
 }
 
 .icon-antenna::before{
-  background-image: url(../img/SVG/antenna-1.svg);
-  
-
+  background-image: url(../img/SVG/antenna.svg);
   
 }
 .icon-clock::before{
-  background-image: url(../img/SVG/clock-1.svg);
+  background-image: url(../img/SVG/clock.svg);
 }
 .icon-diagram::before{
-  background-image: url(../img/SVG/Vector.svg);
+  background-image: url(../img/SVG/diagram.svg);
 }
 .icon-astronaut::before{
-  background-image: url(../img/SVG/astronaut-1.svg);
+  background-image: url(../img/SVG/astronaut.svg);
 }
+
+
 /* work */
 .work{
   padding-bottom: 94px;
@@ -442,16 +469,54 @@ color: var(--secondary-text-color);
 }
 
 .box-icon{
-  display: flex;
+  display:flex;
   width: 206px;
   height: 44px;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  padding: 12px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
+.icon-button{
+width: 20px;
+height: 20px;
+}
+
+/* clients */
+.clients{
+  padding-top: 94px;
+  padding-bottom: 113px;
+}
+.clients-caption{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+margin-bottom: 50px;
+}
+.box-clients{
+  display:flex;
+  width: 170px;
+  height: 92px;
+  list-style: none;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  align-items: center;
+
+  /* outline: 1px solid black; */
+  
+}
+.box-caption{
+  display: flex;
+  gap: 30px;
+}
+
+
 /*----------- Портфолио-----------  */
 
 /* bar */
