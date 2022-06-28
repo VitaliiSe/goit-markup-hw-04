@@ -476,11 +476,14 @@ color: var(--secondary-text-color);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  justify-content: space-between;
+  
   /* outline: 1px solid tomato; */
 }
 .icon-button{
 width: 20px;
 height: 20px;
+
 }
 
 /* clients */
