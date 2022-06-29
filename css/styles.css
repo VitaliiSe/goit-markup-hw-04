@@ -163,6 +163,8 @@ color: var(--accent-color);
   margin-left: 50px;
 }
 
+
+
 /* list-contacts */
 .list-contacts{
 display:flex;
@@ -461,18 +463,26 @@ color: var(--secondary-text-color);
 }
 .button{
   border: none;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
   background-color:var(--white-color);
+  border-radius: 120px;
 }
-
+.button:hover{
+background-color: #2196F3;
+}
 
 .icon-button{
 width: 20px;
 height: 20px;
 cursor: pointer;
-fill: red;
-
+fill:#AFB1B8;
 }
 
+.icon-button:hover{
+fill: white;
+}
 
 
 /* clients */
@@ -490,6 +500,8 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 margin-bottom: 50px;
 }
+
+
 .box-clients{
   display:flex;
   width: 170px;
@@ -500,7 +512,7 @@ margin-bottom: 50px;
   padding: 16px 32px;
   align-items: center;
 
-  /* outline: 1px solid black; */
+/* outline: 1px solid black; */
   
 }
 .box-caption{
@@ -508,6 +520,10 @@ margin-bottom: 50px;
   gap: 30px;
 }
 
+.box-button{
+ display:block;
+ 
+}
 
 /*----------- Портфолио-----------  */
 
