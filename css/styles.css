@@ -43,6 +43,7 @@ body{
   background-color: var(--white-color);
 
 }
+
 .list{
 list-style: none;
 }
@@ -334,7 +335,6 @@ margin-bottom: 9px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .hero{
@@ -673,6 +673,9 @@ box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
+}
+.examples-img{
+display: block;
 }
 
 .examples-border{
