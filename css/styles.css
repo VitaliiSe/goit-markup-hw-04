@@ -87,6 +87,8 @@ text-decoration: none;
 .logo:focus{
 color:var(--accent-color);
 }
+
+
 /* footer */
 
 .footer{
@@ -231,8 +233,8 @@ align-items: center;
 margin-left: auto;
 }
 
-.list-contacts .contact{
-display:block;
+.contact{
+display: flex;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -240,7 +242,10 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 text-decoration: none;
+
 align-items: center;
+justify-content: center;
+
 }
 
 .list-contacts .contact:hover,
@@ -252,8 +257,35 @@ color: var(--accent-color);
   margin-left: 50px;
 }
 
+/* icon-mail */
+.icon-mail{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icon-mail:hover{
+  fill: #2196F3;
+}
 
+.contact:hover .icon-mail{
+  fill: #2196F3;
+}
 
+.icon-tell{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon-tell:hover{
+  fill: #2196F3;
+}
+
+.contact:hover .icon-tell{
+  fill: #2196F3;
+}
 /* items-contacts */
 .items-contacts .contact{
 font-style: normal;
