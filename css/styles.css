@@ -285,22 +285,10 @@ color: var(--accent-color);
 .contact:hover .icon-tell{
   fill: #2196F3;
 }
+
 /* items-contacts */
+
 .contact-footer{
-display: flex;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--secondary-text-color);
-text-decoration: none;
-
-/* align-items: center;
-justify-content: center; */
-}
-
-.items-contacts .contact-footer{
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -310,8 +298,9 @@ color: var(--contact-color);
 text-decoration: none;
 margin-bottom: 9px;
 }
-.items-contacts .contact-footer:hover,
-.items-contacts .contact-footer:focus
+
+.contact-footer:hover,
+.contact-footer:focus
 {
 color: var(--accent-color);
 }
