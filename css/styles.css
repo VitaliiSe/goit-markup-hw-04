@@ -667,7 +667,7 @@ border-radius: 4px;
 .examples .button-bar:hover{
 background-color:var(--accent-color);
 color:var(--button-color);
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
 }
 /* examples */
 .examples-conteiner{
@@ -675,12 +675,17 @@ display: flex;
 flex-wrap: wrap;
 gap: 30px;
 }
+
 .examples-border{
 width: 370px;
-border:1px solid var(--color-examples-border);
-/* margin-bottom: 30px;   */
-}
+border: 1px solid var(--color-examples-border);
+cursor: pointer;
 
+}
+.examples-border:hover{
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+ 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .examples-border:nth-child(n + 7){
   margin-bottom:0px;
   /* background-color: tomato; */
