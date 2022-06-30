@@ -26,7 +26,6 @@ a {
 }
 
 
-
 :root{
   --primary-text-color:#212121;
   --secondary-text-color:#757575;
@@ -246,7 +245,6 @@ text-decoration: none;
 
 align-items: center;
 justify-content: center;
-
 }
 
 .list-contacts .contact:hover,
@@ -296,8 +294,6 @@ line-height: 2;
 letter-spacing: 0.03em;
 color: var(--contact-color);
 text-decoration: none;
-
-
 margin-bottom: 9px;
 }
 .items-contacts .contact:hover,
@@ -305,6 +301,7 @@ margin-bottom: 9px;
 {
 color: var(--accent-color);
 }
+
 .address{
 font-style: normal;
 font-weight: 400;
@@ -325,17 +322,18 @@ margin-bottom: 9px;
   margin-right: auto;
   /* outline: 1px solid black; */
 
-background-image: linear-gradient(
+ background-image: linear-gradient(
   to right,
-  rgba(29, 5, 5, 0.5),
-  rgba(20, 2, 20, 0.5),
-  rgba(13, 36, 13, 0.5)
-),
+  rgba(43, 12, 12, 0.5),
+  rgba(44, 4, 44, 0.5),
+  rgba(5, 37, 5, 0.5)),
   url(../img/Fon.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
+
 .hero{
   text-align: center;
   padding-top: 200px;
@@ -422,10 +420,6 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 
-
-.list-post{
-  /* outline: 1px solid black; */
-}
 
 .icon-post-conteiner{
   width: 270px;
@@ -682,9 +676,8 @@ width: 370px;
 height: 404px;
 border: 1px solid var(--color-examples-border);
 cursor: pointer;
-
-
 }
+
 .examples-border:hover{
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
  0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -699,7 +692,7 @@ padding: 20px 24px;
 }
 
 .examples .examples-title{
-text-align: auto;
+/* text-align: auto; */
 margin-bottom: 4px;
 
 font-style: normal;
