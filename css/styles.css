@@ -26,6 +26,7 @@ a {
 }
 
 
+
 :root{
   --primary-text-color:#212121;
   --secondary-text-color:#757575;
@@ -326,9 +327,9 @@ margin-bottom: 9px;
 
 background-image: linear-gradient(
   to right,
-  rgba(255, 0, 0, 0.5),
-  rgba(0, 0, 255, 0.5),
-  rgba(0, 255, 0, 0.5)
+  rgba(29, 5, 5, 0.5),
+  rgba(20, 2, 20, 0.5),
+  rgba(13, 36, 13, 0.5)
 ),
   url(../img/Fon.jpg);
   background-position: center;
@@ -678,8 +679,10 @@ gap: 30px;
 
 .examples-border{
 width: 370px;
+height: 404px;
 border: 1px solid var(--color-examples-border);
 cursor: pointer;
+
 
 }
 .examples-border:hover{
