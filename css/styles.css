@@ -133,7 +133,6 @@ color:var(--accent-color);
 
 .footer-conteiner{
   display: flex;
-  gap: 70px;
 }
 .logo-conteiner{
   display: block;
@@ -142,6 +141,7 @@ color:var(--accent-color);
 .footer-social-networks{
   display: flex;
   padding-top: 12px;
+  margin-left: 70px;
 }
 
 .social-networks{
