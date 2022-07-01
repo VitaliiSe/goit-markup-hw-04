@@ -36,6 +36,7 @@ a {
   --background-color:#2F303A;
   --white-color:#FFFFFF;
   --color-examples-border:#EEEEEE;
+  --box-button:#AFB1B8;
 }
 
 body{
@@ -175,8 +176,9 @@ color:var(--accent-color);
   border-radius: 120px;
   cursor: pointer;
 }
-.button-social-networks:hover{
-background-color: #2196F3;
+.button-social-networks:hover,
+.button-social-networks:focus{
+background-color: var(--accent-color);
 }
 
 
@@ -187,15 +189,16 @@ background-color: #2196F3;
   fill:var(--button-color);
   }
   
-.button-social-networks:hover .icon-button-networks{
+.button-social-networks:hover .icon-button-networks,
+.button-social-networks:focus .icon-button-networks{
 fill:var(--button-color);
- }
+}
 
 
 /* conteiner-nav */
 .conteiner-nav{
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 /* site-nav */
@@ -264,12 +267,14 @@ color: var(--accent-color);
   margin-right: 10px;
   cursor: pointer;
 }
-.icon-mail:hover{
-  fill: #2196F3;
+.icon-mail:hover,
+.icon-mail:focus{
+  fill: var(--accent-color);
 }
 
-.contact:hover .icon-mail{
-  fill: #2196F3;
+.contact:hover .icon-mail,
+.contact:focus .icon-mail{
+  fill: var(--accent-color);
 }
 
 .icon-tell{
@@ -279,12 +284,14 @@ color: var(--accent-color);
   cursor: pointer;
 }
 
-.icon-tell:hover{
-  fill: #2196F3;
+.icon-tell:hover,
+.icon-tell:focus{
+  fill: var(--accent-color);
 }
 
-.contact:hover .icon-tell{
-  fill: #2196F3;
+.contact:hover .icon-tell,
+.contact:focus .icon-tell{
+  fill: var(--accent-color);
 }
 
 /* items-contacts */
@@ -328,9 +335,9 @@ margin-bottom: 9px;
 
  background-image: linear-gradient(
   to right,
-  rgba(43, 12, 12, 0.5),
-  rgba(44, 4, 44, 0.5),
-  rgba(5, 37, 5, 0.5)),
+  rgba(12, 2, 2, 0.5),
+  rgba(17, 5, 17, 0.5),
+  rgba(3, 10, 3, 0.5)),
   url(../img/Fon.jpg);
   background-position: center;
   background-size: cover;
@@ -475,6 +482,15 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
+
+/* team-fon */
+
+.team-fon{
+max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
+background-color: #F5F4FA;
+}
 /* team */
 .team{
   padding-bottom: 94px;
@@ -490,6 +506,7 @@ justify-content: space-between;
 border: var(--white-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+background: var(--white-color);
 }
  
 .picture{
@@ -552,23 +569,26 @@ color: var(--secondary-text-color);
   border-radius: 120px;
   cursor: pointer;
 }
-.button:hover{
-background-color: #2196F3;
+.button:hover,
+.button:focus{
+background-color: var(--accent-color);
 }
 
 .icon-button{
 width: 20px;
 height: 20px;
 cursor: pointer;
-fill:#AFB1B8;
+fill:var(--box-button);
 }
 
-.icon-button:hover{
-fill: white;
+.icon-button:hover,
+.icon-button:focus{
+fill: var(--white-color);
 }
 
-.button:hover .icon-button{
-fill: white;
+.button:hover .icon-button,
+.button:focus .icon-button{
+fill: var(--white-color);
 }
 
 /* clients */
@@ -595,14 +615,15 @@ margin-bottom: 50px;
   list-style: none;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  padding: 16px 32px;
   align-items: center;
   cursor: pointer;
+  justify-content: center;
 
 /* outline: 1px solid black; */
 }
-.box-clients:hover{
-  border-color: #2196F3;
+.box-clients:hover,
+.box-clients:focus{
+  border-color: var(--accent-color);
 }
 
 .box-caption{
@@ -620,12 +641,14 @@ margin-bottom: 50px;
  /* outline: 1px solid black; */
 }
 
-.box-button:hover{
-  fill: #2196F3;
+.box-button:hover,
+.box-button:focus{
+  fill:var(--accent-color);
 }
 
-.box-clients:hover .box-button{
-  fill: #2196F3;
+.box-clients:hover .box-button,
+.box-clients:focus .box-button{
+  fill:var(--accent-color);
 }
 
 /*----------- Портфолио-----------  */
