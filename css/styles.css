@@ -460,15 +460,15 @@ color: var(--secondary-text-color);
 
 .work-conteiner{
 display: flex;
-
+gap: 30px;
 }
 
 .list-work{
  display: flex;
 }
-.work-conteiner .list-work+ .list-work{
+/* .work-conteiner .list-work+ .list-work{
   margin-left: 30px;
-}
+} */
 
 
 .work .work-title{
